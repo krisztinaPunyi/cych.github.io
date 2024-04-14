@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h2, h3, h4, h5, p {
+    margin: 10px;
+}
+
+nav {
+    min-height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+}
+
+nav img {
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li a{
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#mission {
+    background-image: url(img/mission-background.webp);
+    background-size: cover;
+    min-height: 700px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission h2, h4 {
+    align-content: center;
+    width: 97%;
+    padding: 18px;
+    margin: 0;
+}
+
+#tea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+#tea figure img {
+    max-height: 200px;
+    max-width: 300px;
+    margin: 10px;
+    flex: 1 1 auto;
+}
+
+#tea figure figcaption {
+    margin: 10px;
+}
+
+#location {
+    background-image: url(img/locations-background.webp);
+    background-size: cover;
+    min-height: 500px;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#location h2 {
+    background-color: transparent;
+}
+
+#location ul {
+    background-color: transparent;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#location ul li {
+    list-style-type: none;
+    min-width: 300px;
+    opacity: 1;
+    margin: 15px 40px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#location ul li h3, .location ul li p {
+    flex: 1 1 auto;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
