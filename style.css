@@ -51,7 +51,7 @@ nav ul li a{
 }
 
 #mission {
-    background-image: url(img/mission-background.webp);
+    background-image: url(mission-background.webp);
     background-size: cover;
     min-height: 700px;
     max-width: 1200px;
@@ -88,7 +88,7 @@ nav ul li a{
 }
 
 #location {
-    background-image: url(img/locations-background.webp);
+    background-image: url(locations-background.webp);
     background-size: cover;
     min-height: 500px;
     max-width: 1200px;
